@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <aside class="sidebar fixed top-0 left-0 w-14 h-full text-white"></aside> -->
+    <section class="w-full home ">
+      <div class="md:container container-full mx-auto">
+        <header class="logo w-full">
+          <nav class="py-4">
+            <div class="logo" id="#home">
+              <a href="#trangchu"
+                ><img class="logo-1" src="./img/Logo I&E đỏ (png).png" alt=""
+              /></a>
+            </div>
+            <ul
+              class="menu flex-col md:flex-row md:flex md:text-lg text-sm"
+              id="header__ul"
+            >
+              <li>
+                <a href="#trangchu">Trang chủ </a>
+              </li>
+              <li>
+                <a href="#timeline">Dòng thời gian </a>
+              </li>
+              <li>
+                <a href="#ketluan">Kết luận </a>
+              </li>
+            </ul>
+
+            <button id="toggleButton" class="icon md:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </nav>
+        </header>
+      </div>
+    </section>
+    <section id="trangchu" class="trangchu section md:h-screen ">
+      <div class="laco w-full h-full ">
+        <img
+          class="w-full h-full object-cover opacity-25 xetang"
+          src="./img/laco.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto h-full flex items-center lichsu">
+        <div class="chu pt-8">
+          <img class="anh9" src="./img/image-removebg-preview.png" alt="" />
+        </div>
+        <div class="noidung flex gap-12">
+          <div class="flex-1 flex">
+            <div class="bentrai mt-14 lg:text-lg text-sm">
+              <!-- <img class="giay" src="./img/giay.jpg" alt="" /> -->
+              <h1
+                class="md:text-4xl text-xl font-black text-center mb-8"
+                id="lichsu"
+              >
+                <span></span>
+              </h1>
+              <p class="ml-5">
+                <strong>Lịch sử Việt Nam</strong> là câu chuyện của một dân tộc
+                kiên cường, trải qua hàng nghìn năm đấu tranh để xây dựng, bảo
+                vệ đất nước và duy trì bản sắc văn hóa riêng. Được định hình từ
+                rất sớm với sự ra đời của các nhà nước sơ khai, Việt Nam trải
+                qua nhiều giai đoạn phát triển và gặp không ít thử thách từ các
+                thế lực ngoại bang. Trong quá trình phát triển lịch sử, Việt Nam
+                nằm ở một trong những khu vực được coi là cái nôi của nhân loại.
+              </p>
+              <p class="ml-5">
+                <strong>Trải qua chiều dài lịch sử</strong> rộng lớn, đất nước
+                Việt Nam chúng ta có ngày hôm nay là nhờ sức mạnh của cả dân
+                tộc, của người dân một nước cùng chung một màu cờ trong lòng
+              </p>
+            </div>
+          </div>
+          <div class="flex-1 mt-14">
+            <div class="anhbac w-full h-full flex">
+              <img
+                class="anh object-cover w-full h-full"
+                src="./img/1945.jpg"
+                alt=""
+              />
+              <!-- <video src="./img/hoc.mp4.mp4" type="video/mp4" autoplay="autoplay" controls></video> -->
+            </div>
+            <!-- <div class="image-container w-full h-full">
+              <img
+                src="./img/anhbacviet.jpg"
+                alt="Animated Image"
+                class="animated-image"
+              />
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-full timeline" id="timeline">
+      <div
+        class="tongquan w-full h-full"
+        style="position: absolute; opacity: 0.1"
+      >
+        <img
+          class="w-full h-full object-cover"
+          src="./img/timeline.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto timeline-1">
+        <div class="container-noidung-12 gap-12 flex pt-10">
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5 md:mb-0 mb-5">
+              <h2 class="font-bold text-lg text-center">Thời tiền sử</h2>
+              <p class="text-sm text-center">Trước năm 2880 TCN</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',3)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+        </div>
+        <div class="container-noidung-12 gap-12 flex">
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5 md:mb-0 mb-5">
+              <h2 class="font-bold text-lg text-center">Thời tiền sử</h2>
+              <p class="text-sm text-center">2879 TCN-111 TCN</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',4)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-noidung-12 gap-12 flex">
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5 md:mb-0 mb-5">
+              <h2 class="font-bold text-lg text-center">
+                Sự thống trị của Trung Quốc
+              </h2>
+              <p class="text-sm text-center">111 TCN - 938</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',5)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+        </div>
+
+        <div class="container-noidung-12 gap-12 flex">
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5 md:mb-0 mb-5">
+              <h2 class="font-bold text-lg text-center">Độc lập</h2>
+              <p class="text-sm text-center">939 - 1858</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',6)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-noidung-12 gap-12 flex">
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5 md:mb-0 mb-5">
+              <h2 class="font-bold text-lg text-center">
+                Sự thống trị của Pháp
+              </h2>
+              <p class="text-sm text-center">1858 - 1945</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',7)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+        </div>
+        <div class="container-noidung-12 gap-12 flex pb-10">
+          <div class="flex-1 md:block hidden">
+            <div class="py-14"></div>
+          </div>
+          <div class="flex-1 md:justify-normal justify-center flex">
+            <div class="container-noidung-1 py-14 md:w-full w-4/5">
+              <h2 class="font-bold text-lg text-center">Sau năm 1945</h2>
+              <p class="text-sm text-center">Sau năm 1945</p>
+              <div class="text-center">
+                <button class="mail mt-4" onclick="xemthem('mo',8)">
+                  Chi Tiết
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="noidung3 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',3)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">Thời tiền sử</h1>
+
+        <p class="chu">
+          Thời tiền sử là giai đoạn trước khi chữ viết ra đời, kéo dài từ khi
+          con người xuất hiện đến khoảng 3.000 năm trước Công nguyên. Trong thời
+          gian này, con người phát triển qua ba thời kỳ chính: Đồ Đá, Đồ Đồng và
+          Đồ Sắt. Họ bắt đầu từ việc săn bắn, hái lượm đến trồng trọt, chăn nuôi
+          và dần hình thành các cộng đồng định cư. Công cụ lao động ban đầu làm
+          từ đá, sau đó chuyển sang đồng và sắt, giúp con người cải thiện cuộc
+          sống và tạo nền móng cho các nền văn minh cổ đại
+        </p>
+      </div>
+      <div class="noidung4 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',4)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">Thời tiền sử</h1>
+
+        <p class="chu">
+          Thời kỳ tiền sử của Việt Nam từ năm 2879 TCN đến 111 TCN là giai đoạn
+          hình thành và phát triển các cộng đồng người Việt cổ. Theo truyền
+          thuyết, vào năm 2879 TCN, Kinh Dương Vương lập ra nước Xích Quỷ, sau
+          đó là Hùng Vương dựng nên nước Văn Lang. Đây là thời kỳ của các nền
+          văn hóa sơ khai như văn hóa Đông Sơn, nổi bật với nghề đúc đồng và
+          trống đồng đặc trưng, phản ánh đời sống phong phú và tinh thần đoàn
+          kết của cộng đồng. Đến năm 111 TCN, Việt Nam bị nhà Hán đô hộ, đánh
+          dấu sự kết thúc của thời kỳ độc lập và bắt đầu thời kỳ Bắc thuộc kéo
+          dài nhiều thế kỷ sau.
+        </p>
+      </div>
+      <div class="noidung5 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',5)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">
+          Sự thống trị của Trung Quốc
+        </h1>
+
+        <p class="chu">
+          Từ năm 111 TCN đến năm 938, Việt Nam chịu sự thống trị của nhiều triều
+          đại phong kiến Trung Quốc như Hán, Ngô, Tấn, Tùy, và Đường. Trong hơn
+          một nghìn năm đô hộ, chính quyền phương Bắc áp đặt văn hóa, chính trị
+          và kinh tế, nhưng người Việt vẫn kiên trì bảo vệ bản sắc dân tộc qua
+          các cuộc khởi nghĩa như của Hai Bà Trưng, Bà Triệu và Mai Thúc Loan.
+          Cuối cùng, năm 938, Ngô Quyền đánh bại quân Nam Hán trên sông Bạch
+          Đằng, chấm dứt ách đô hộ, mở ra thời kỳ độc lập cho dân tộc.
+        </p>
+      </div>
+      <div class="noidung6 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',6)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">Độc lập 939-1858</h1>
+
+        <p class="chu">
+          Từ năm 939 đến 1858, Việt Nam bước vào thời kỳ độc lập sau khi Ngô
+          Quyền đánh bại quân Nam Hán, mở ra các triều đại tự chủ như Ngô, Đinh,
+          Tiền Lê, Lý, Trần, Hậu Lê và Nguyễn. Trong thời kỳ này, Việt Nam phát
+          triển mạnh mẽ về văn hóa, kinh tế và quân sự, mở rộng lãnh thổ về phía
+          Nam và chống lại các cuộc xâm lược từ Trung Quốc, tiêu biểu là các
+          chiến thắng trước quân Tống, Nguyên, và Minh. Đây là giai đoạn hình
+          thành bản sắc dân tộc và hệ thống hành chính, tạo nền tảng cho một đất
+          nước độc lập và thống nhất trước khi chịu sự xâm lược của thực dân
+          Pháp vào năm 1858.
+        </p>
+      </div>
+      <div class="noidung7 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',7)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">Sự thống trị của Pháp</h1>
+
+        <p class="chu">
+          Từ năm 939 đến 1858, Việt Nam bước vào thời kỳ độc lập sau khi Ngô
+          Quyền đánh bại quân Nam Hán, mở ra các triều đại tự chủ như Ngô, Đinh,
+          Tiền Lê, Lý, Trần, Hậu Lê và Nguyễn. Trong thời kỳ này, Việt Nam phát
+          triển mạnh mẽ về văn hóa, kinh tế và quân sự, mở rộng lãnh thổ về phía
+          Nam và chống lại các cuộc xâm lược từ Trung Quốc, tiêu biểu là các
+          chiến thắng trước quân Tống, Nguyên, và Minh. Đây là giai đoạn hình
+          thành bản sắc dân tộc và hệ thống hành chính, tạo nền tảng cho một đất
+          nước độc lập và thống nhất trước khi chịu sự xâm lược của thực dân
+          Pháp vào năm 1858.
+        </p>
+      </div>
+      <div class="noidung8 flex-col pl-10 pb-5 pr-5 pt-2 thuthach-modal">
+        <div class="flex justify-end">
+          <button class="button close" onclick="xemthem('dong',8)">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <h1 class="text-center text-xl font-bold">Sau năm 1945</h1>
+
+        <p class="chu">
+          Sau năm 1945, Việt Nam trải qua một giai đoạn biến động lớn với sự kết
+          thúc của Thế chiến II và sự hồi sinh của phong trào độc lập. Ngày 2
+          tháng 9 năm 1945, Chủ tịch Hồ Chí Minh tuyên bố độc lập, thành lập
+          nước Việt Nam Dân chủ Cộng hòa. Tuy nhiên, sự kháng cự chống lại sự
+          quay trở lại của thực dân Pháp nhanh chóng diễn ra, dẫn đến cuộc kháng
+          chiến chống Pháp (1946-1954). Cuộc chiến này không chỉ mang tính chất
+          quốc gia mà còn có sự hỗ trợ từ các quốc gia cộng sản, tạo tiền đề cho
+          phong trào độc lập dân tộc. Đến năm 1954, sau chiến thắng Điện Biên
+          Phủ, Pháp buộc phải rút lui, đánh dấu một bước ngoặt quan trọng trong
+          lịch sử Việt Nam.
+        </p>
+      </div>
+
+      <div class="hangdoc"></div>
+    </section>
+
+    <section
+      class="lg:h-screen py-10 items-center flex PREHISTORIC"
+      id="PREHISTORIC16"
+    >
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="">
+            <div class="thoi w-full md:w-1/2">
+              <h1
+                class="md:text-5xl font-black text-3xl text-center mb-8 relative"
+              >
+                Thời tiền sử
+              </h1>
+              <p class="mb-2 text-sm md:text-lg px-2">
+                <strong>Tiền sử Việt Nam </strong> giới thiệu những dấu tích
+                phản ánh sự xuất hiện sớm của con người ở Việt Nam và các di
+                tích, di vật, văn hóa phản ánh hoạt động của con người từ thời
+                kỳ đồ đá sơ khai. từ xưa đến hậu đá mới ở Việt Nam từ miền núi,
+                trung du, đồng bằng, ven biển và hải đảo; Sự giao lưu với các
+                nền văn hóa trong khu vực để phát triển, từng bước tạo tiền đề
+                cơ sở hạ tầng quan trọng đưa Việt Nam bước vào kỷ nguyên mới -
+                thời kỳ xây dựng đất nước đầu tiên có bản sắc riêng.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-full md:py-24 items-center flex PREHISTORIC-1 relative" id="PREHISTORIC2">
+      <div class="laco w-full h-full">
+        <img
+          class="w-full h-full object-cover opacity-15 xetang"
+          src="./img/tiensu.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <!-- <div class="flex-1">
+            <div class="w-full h-full flex ">
+              <img
+                class="w-1/2 h-full object-cover "
+                src="./img/Image 1.png"
+                alt=""
+              />
+              <img
+                class="w-1/2 h-full object-cover "
+                src="./img/Image 1.png"
+                alt=""
+              />
+              
+            </div>
+          </div> -->
+          <div class="flex-1">
+            <div class="flex-1 w-full h-full flex object-cover">
+              <img
+                class="flex-image w-full h-auto"
+                src="./img/tiensu-sua-1.png"
+                alt="Image 1"
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm">
+              <h1
+                class="md:text-5xl font-black text-3xl font-black text-center mb-3"
+              >
+                Thời tiền sử
+              </h1>
+              <p class="px-2">
+                <strong>1. Thời kỳ đồ đá cũ </strong>
+                con người xuất hiện khá sớm ở Việt Nam. Cho đến nay, các nhà
+                khảo cổ học đã tìm thấy dấu vết của Homo erectus ở một số hang
+                động ở Lạng Sơn, Nghệ An, Yên Bái; dấu vết văn hóa Núi Đỏ (Thanh
+                Hóa), ​​Thần Sa (Thái Nguyên), Sơn Vi (Phú Thọ), cách ngày nay
+                khoảng 10.000 - 30.000 năm. Vào thời điểm đó, người ta đã biết
+                sử dụng những công cụ thô sơ làm bằng đá cuội, sinh sống khá
+                rộng rãi và khá đông đúc ở Việt Nam.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>2. Thời kỳ đồ đá mới </strong>
+                tiêu biểu với văn hóa Hòa Bình, Bắc Sơn (cách đây khoảng 6.000 -
+                trên 10.000 năm). Con người đã sử dụng rất nhiều loại công cụ
+                bằng đá với những công dụng riêng; biết làm đồ gốm, trồng trọt,
+                bỏ hái lượm để sản xuất.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>3. Thời đại kim loại </strong>
+                cách đây khoảng 4.000 năm: từ thời đại đồ đồng đến thời đại đồ
+                sắt, ở Việt Nam hình thành 3 trung tâm văn hóa lớn: Phùng Nguyên
+                - Đông Sơn (miền Bắc), Long Thành - Sa Huỳnh (miền Bắc). Miền
+                Trung và Cầu Sắt, Dốc Chùa - Đồng Nai (Miền Nam). Ba trung tâm
+                văn hóa này có mối quan hệ tương hỗ chặt chẽ, lâu dài và góp
+                phần tạo nên nét đặc trưng của truyền thống văn hóa Việt Nam:
+                thống nhất trong đa dạng.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="items-center flex PREHISTORIC-4 lg:h-screen py-10"
+      id="PREHISTORIC3"
+    >
+      <!-- <div class="convoi-2">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="flex">
+            <div class="md:w-1/2 w-full lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Thời nguyên thủy
+              </h1>
+              <p class="px-2">
+                <strong>Sau thời kỳ đồ đá cũ</strong> đã trải qua một thời gian
+                dài cách đây khoảng 4000 năm. Ở Đông Nam Bộ xuất hiện một tầng
+                lớp cư dân mới. Chúng thuộc về văn hóa Đồng Nai thời kỳ Kim loại
+                (đồng thau và sắt sơ khai); sống ở các tiểu vùng sinh thái khác
+                nhau.
+              </p>
+              <p class="px-2">
+                Từ lưu vực sông Hồng đến lưu vực sông Đồng Nai. Trong thời kỳ
+                này ở Việt Nam có ba trung tâm văn hóa lớn là Đông Sơn (miền
+                Bắc), Sa Huỳnh (miền Trung) và Đồng Nai (miền Nam).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-full items-center flex PREHISTORIC-1 relative md:py-24" id="PREHISTORIC4">
+      <div class="laco nguyenthuy w-full h-full object-cover">
+        <img
+          class="w-full h-full object-cover opacity-15 xetang"
+          src="./img/tiensu-2.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="w-full h-full">
+              <img
+                class="w-full h-full object-cover anh-1"
+                src="./img/nguyenthuy-1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Thời nguyên thủy
+              </h1>
+              <p class="px-2">
+                <strong>1.Văn hóa Đông Sơn (cả tiền Đông Sơn) </strong> được coi
+                là cốt lõi của người Việt cổ. Văn hóa Sa Huỳnh (cả thời kỳ tiền
+                Sa Huỳnh) được coi là tiền thân của người Chăm và vương quốc
+                Champa. Văn hóa Đồng Nai (cả thời kỳ đồng và sắt) là một trong
+                những khởi nguồn của văn hóa Óc Eo của cư dân người Mã Lai - Đạo
+                giáo sống vào các thế kỷ sau Công nguyên ở phương Đông và phương
+                Tây. Miền Nam.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>2:Trước năm 218 TCN</strong> Việt Nam chưa có lịch sử
+                chính thức, lúc này truyền thuyết và lịch sử vẫn gắn bó với
+                nhau. Người ta thường nhắc đến các truyền thuyết Kinh Dương
+                Vương, Lạc Long Quân, Phù Đổng Thiên Vương, Sơn Tinh - Thủy Tinh
+                để lý giải về nguồn gốc và đấu tranh sinh tồn của dân tộc. Từ
+                năm 257 - 208 TCN, Thục Phán, thủ lĩnh của người Âu Việt, sáp
+                nhập với nước Văn Lang của Lạc Việt, đặt tên nước là Âu Lạc, tự
+                xưng là An Dương Vương. Trong thời kỳ này, lịch sử được tái hiện
+                qua lăng kính truyền thuyết với việc An Dương xây thành Cổ Loa.
+                Từ năm 217 – 111 TCN, Triệu Đà người Hán đã thôn tính Âu Lạc. Sự
+                kiện này còn được phản ánh trong truyền thuyết về mối tình Trọng
+                Thủy và Mỵ Châu. Sau khi chiếm được Âu Lạc, Triệu Đà lập nên Nam
+                Việt.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>3:Năm 111 TCN</strong> nhà Hán chiếm được Nam Việt từ
+                tay nhà Triệu. Từ đây đất nước ta bắt đầu 1000 năm Bắc thuộc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="lg:h-screen py-16 items-center flex PREHISTORIC-5"
+      id="PREHISTORIC5"
+    >
+      <!-- <div class="convoi-3">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="flex">
+            <div class="md:w-1/2 w-full lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Sự thống trị của Trung Quốc
+              </h1>
+              <p class="px-2">
+                <strong>Trong hơn nghìn năm Bắc đô hộ</strong> và chống Bắc đô
+                hộ, nhân dân ta chưa bao giờ cam chịu mà luôn đấu tranh chống
+                lại áp bức, thống trị. Ý chí tự lực, tự cường giành độc lập dân
+                tộc chưa bao giờ nguội lạnh, thể hiện qua các cuộc khởi nghĩa,
+                xưng vương, hoàng đế (Trương Vương, Lý Nam Đế, Triệu Việt Vương,
+                Mai Hắc Đế,...).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="items-center flex PREHISTORIC-1 relative md:py-24" id="PREHISTORIC7">
+      <div class="laco w-full h-full object-cover">
+        <img
+          class="w-full h-full object-cover opacity-15 xetang"
+          src="./img/trungquoc.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="w-full h-full">
+              <img
+                class="w-full h-full object-cover anh-1"
+                src="./img/trungquoc-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Sự thống trị của Trung Quốc
+              </h1>
+              <p class="px-2">
+                <strong>Cuộc khởi nghĩa đầu tiên.</strong>Trong hơn nghìn năm
+                Bắc đô hộ và chống Bắc đô hộ, nhân dân ta chưa bao giờ cam chịu
+                mà luôn đấu tranh chống lại áp bức, thống trị. Ý chí tự lực, tự
+                cường giành độc lập dân tộc chưa bao giờ nguội lạnh, thể hiện
+                qua các cuộc khởi nghĩa, xưng vương, hoàng đế (Trương Vương, Lý
+                Nam Đế, Triệu Việt Vương, Mai Hắc Đế,...).
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Cuộc khởi nghĩa thứ hai.</strong> Đế quốc Hán áp đặt một
+                ách thống trị và bóc lột nặng nề lên người Âu Lạc. Đặc biệt nguy
+                hiểm là chính sách Hán hóa người Việt, biến đất Việt thành đất
+                Hán. Nhưng cư dân Việt Nam đã không khuất phục. Năm 39, bị giặc
+                nước giặc, Hai Bà Trưng nổi dậy, chiếm được 65 thành ở Lĩnh Nam.
+                Hai phu nhân lên ngôi, kết thúc thời kỳ thuộc địa đầu tiên của
+                phương Bắc.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Cuộc khởi nghĩa thứ ba.</strong> Năm 43, nhà Hán sai
+                tướng Mã Viễn đem quân chiếm lại, Hai Bà Trưng không chống cự
+                được phải rút lui giữ Cẩm Khê rồi tự sát ở sông Hát. Thế kỷ thứ
+                3, trên đất Âu Lạc nổ ra cuộc khởi nghĩa lớn Bà Triệu năm 248.
+                Thời kỳ Bắc thuộc lần thứ hai kết thúc vào năm 541 khi Lý Bi
+                phát động quân đánh nhà Lương và chính thức thành lập nước Tiền
+                Lý và nước Vạn Xuân vào năm 544.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="lg:h-screen py-10 items-center flex PREHISTORIC-6 relative"
+      id="PREHISTORIC8"
+    >
+      <!-- <div class="convoi-4">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="flex">
+            <div class="md:w-1/2 w-full lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Độc lập
+              </h1>
+              <p class="px-2">
+                <strong>Từ năm 939 đến 1407</strong> Việt Nam trong thời kỳ này
+                trải qua nhiều chế độ phong kiến: nhà Ngô (939 – 965), nhà Đinh
+                (968 – 980), nhà Tiền Lê (980 – 1009), nhà Lý (tiếng Việt). 1009
+                – 1225, nhà Trần (1226 – 1400) và nhà Hồ (1400 – 1407). Trong
+                thời kỳ này, các triều đại phương Bắc ở Trung Quốc và Mông Cổ
+                đem quân xâm lược nhưng đều bị Việt Nam đẩy lui.
+              </p>
+              <p class="px-2">
+                <strong>Năm 1407</strong> quân Minh xâm lược Đại Ngu lấy cớ đánh
+                đuổi nhà Hồ để lập lại nhà Trần (Phú Trần diệt Hồ). Quân Minh
+                nhanh chóng đánh bại quân Đại Ngu, thời kỳ này gọi là Bắc thuộc
+                lần thứ 4. Sau này quân Trần nổi dậy chống quân Minh từ năm 1407
+                – 1413 nhưng cũng bị đánh bại. Một thủ lĩnh của Giao Chỉ là Lê
+                Lợi nổi dậy chống lại sự thống trị của nhà Minh. Cuộc khởi nghĩa
+                Lam Sơn thắng lợi năm 1427, Lê Lợi lên ngôi, lập nên nhà Hậu Lê.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="md:h-screen items-center flex PREHISTORIC-1 relative md:py-24" id="PREHISTORIC9"
+    >
+      <div class="laco w-full h-full object-cover">
+        <img
+          class="w-full h-full object-cover opacity-20 xetang"
+          src="./img/doclap.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="w-full h-full">
+              <img
+                class="w-full h-full object-cover anh-1"
+                src="./img/hungdao.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Sự phân biệt
+              </h1>
+              <p class="px-2">
+                <strong>Thời kỳ phân chia (1527 – 1802)</strong> bắt nguồn từ
+                các triều đại Nam – Bắc năm 1527. Việt Nam trong thời kỳ này
+                trải qua nhiều chế độ phong kiến: nhà Mạc (1527 – 1592), nhà Lê
+                Trung Hưng (1533 – 1789). , chúa Trình (1545 – 1787), chúa
+                Nguyễn (1558 – 1777) và thời Tây Sơn (1778 – 1802). Ngoài ra,
+                dấu ấn của sự mở rộng đất nước trong thời kỳ phong kiến ​​này là
+                việc mở rộng về phía Nam để cung cấp lương thực cho sự gia tăng
+                dân số của Đại Việt.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Từ giữa thế kỷ 18</strong> phong trào Tây Sơn nổ ra vào
+                năm 1771 ở Quy nhơn (Bình Định) đã đánh bại hai chế độ cai trị
+                họ Nguyễn và họ Trình, chấm dứt việc đất nước bị chia làm hai,
+                cũng như xóa bỏ chế độ thời Hậu Lê. Nhà Tây Sơn đánh bại 50.000
+                quân Xiêm (1784) ở miền Nam và 29.000 quân Mãn Châu (1789) ở
+                miền Bắc. Nguyễn Huệ chính thức trở thành vua Đại Việt, lấy niên
+                hiệu Quang Trung, thống nhất phần lớn lãnh thổ từ phía Bắc đến
+                Gia Định.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="lg:h-screen py-10 items-center flex PREHISTORIC-7"
+      id="PREHISTORIC10"
+    >
+      <!-- <div class="convoi-5">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="flex">
+            <div class="md:w-1/2 w-full lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Sự thống trị của Pháp
+              </h1>
+              <p class="px-2">
+                Thời kỳ thuộc địa của Pháp là một giai đoạn trong lịch sử Việt
+                Nam kéo dài 61 năm, bắt đầu từ năm 1884 khi người Pháp ép triều
+                đình Huế ký Hiệp ước Giáp Thân cho đến năm 1945 khi người Pháp
+                mất quyền cai trị ở Đông Dương. Trong thời kỳ này, Pháp sáp nhập
+                Việt Nam, Campuchia và Lào.
+              </p>
+              <p class="px-2">
+                Mất chủ quyền, Việt Nam bị chia cắt thành 3 quốc gia riêng biệt
+                với ba cơ cấu hành chính riêng biệt: vùng đất thuộc địa Nam Kỳ
+                và các xứ bảo hộ Bắc và Trung Mỹ.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="items-center flex PREHISTORIC-1 relative md:py-24" id="PREHISTORIC11">
+      <div class="laco w-full h-full object-cover">
+        <img
+          class="z-0 w-full h-full object-cover opacity-20 xetang"
+          src="./img/phap.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="w-full h-full">
+              <img
+                class="w-full h-full object-cover anh-1"
+                src="./img/khangchienchongphap-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm md:mb-0 mb-3">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Sự thống trị của Pháp
+              </h1>
+              <p class="px-2">
+                <strong>Ngày 31/8/1858</strong> Hải quân Pháp đổ bộ vào cảng Đà
+                Nẵng rồi rút lui đánh chiếm Sài Gòn. Tháng 6 năm 1862, vua Tự
+                Đức ký hiệp ước nhượng lại 3 tỉnh miền đông cho Pháp. Năm 1867,
+                Pháp chiếm 3 tỉnh tiếp theo ở miền Tây để hình thành thuộc địa
+                Nam Kỳ (Cochinchine).
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Nó tiếp tục cho đến năm 1887</strong> khi người Pháp
+                hoàn thành quá trình xâm lược Việt Nam. Sau đó, người Pháp tổ
+                chức bộ máy cai trị khá đầy đủ từ trung ương đến địa phương. Đến
+                năm 1893, quyền kiểm soát của Toàn quyền miền Đông nước Pháp
+                được mở rộng hơn nữa, trong đó có Ai Lao. Sau thất bại của phong
+                trào Cần Vương cuối thế kỷ 19, người Pháp đã củng cố hoàn toàn
+                tổ chức cai trị ở Việt Nam.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Tháng 9 năm 1945</strong> Pháp đưa quân trở lại Việt
+                Nam. Mặc dù người Pháp công nhận Việt Nam là một nước tự do
+                trong Liên bang Đông Dương dưới thời Liên hiệp Pháp nhưng chiến
+                tranh Đông Dương vẫn nổ ra và Pháp bị đánh bại sau 9 năm chiến
+                tranh. Pháp buộc phải công nhận nền độc lập của Việt Nam (cũng
+                như Lào và Campuchia), chính thức chấm dứt thời kỳ thuộc địa của
+                Pháp, đồng thời dẫn đến sự sụp đổ của hệ thống thuộc địa của
+                Pháp và các nước thuộc địa khác trên khắp cả nước. thế giới
+                trong những năm 1950 và 1960.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="lg:h-screen py-3 items-center flex PREHISTORIC-8"
+      id="PREHISTORIC12"
+    >
+      <!-- <div class="convoi-6">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="flex">
+            <div class="md:w-1/2 w-full lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Sau năm 1945
+              </h1>
+              <p class="px-2">
+                <strong>Cách mạng Tháng Tám năm 1945</strong> thành công đã mở
+                ra một bước ngoặt lớn trong lịch sử dân tộc Việt Nam. Ngày 2
+                tháng 9 năm 1945, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh
+                đọc “Tuyên ngôn độc lập”, khai sinh nước Việt Nam Dân chủ Cộng
+                hòa (nay là Cộng hòa xã hội chủ nghĩa Việt Nam).
+              </p>
+              <p class="px-2">
+                <strong>Sau đó</strong> chiến dịch Hồ Chí Minh lịch sử năm 1975
+                với thắng lợi hoàn toàn đã kết thúc 21 năm kháng chiến chống đế
+                quốc Mỹ xâm lược của nhân dân Việt Nam. phát triển cho đến ngày
+                nay.
+              </p>
+              <p class="px-2">
+                <strong>Ngày 2 tháng 9 năm 1945 tại Hà Nội</strong> Hồ Chí Minh
+                tuyên bố thành lập nước Việt Nam Dân chủ Cộng hòa độc lập và
+                thống nhất từ ​​Bắc vào Nam. Đầu năm 1946, một cuộc bầu cử toàn
+                quốc được tổ chức. Quốc kỳ được chọn nền đỏ, sao vàng năm cánh,
+                hiến pháp được thông qua. Nhà nước Việt Nam Dân chủ Cộng hòa
+                chính thức trở thành đại diện hợp pháp của nhân dân Việt Nam từ
+                Bắc vào Nam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:h-screen items-center flex PREHISTORIC-1 md:py-24" id="PREHISTORIC13">
+      <div class="laco w-full h-full object-cover">
+        <img
+          class="w-full h-full object-cover opacity-20 xetang"
+          src="./img/kcchongphap.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="w-full h-full">
+              <img
+                class="w-full h-full object-cover anh-1"
+                src="./img/phap.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Kháng chiến chống Pháp
+              </h1>
+
+              <p class="px-2">
+                <strong>Sau khi Pháp</strong> ra tối hậu thư yêu cầu Việt Nam
+                Dân chủ Cộng hòa đầu hàng, chiến tranh giữa Việt Nam và thực dân
+                Pháp nổ ra vào tháng 12 năm 1946.
+              </p>
+              <p class="px-2">
+                <strong>Sau khi Pháp</strong> ra tối hậu thư yêu cầu Việt Nam
+                Dân chủ Cộng hòa đầu hàng, chiến tranh giữa Việt Nam và thực dân
+                Pháp nổ ra vào tháng 12 năm 1946.
+              </p>
+              <p class="mb-2 px-2">
+                <strong>Đầu năm 1947</strong> Pháp phải chiếm ưu thế và kiểm
+                soát tất cả các thành phố lớn của Việt Nam. Tuy nhiên, Việt Nam
+                Dân chủ Cộng hòa vẫn trình chiến lược “chiến tranh nhân dân” và
+                chiến thuật du kích, tổ chức, huấn luyện nhân dân cho một cuộc
+                chiến tranh vũ trang kéo dài Pháp sa Xỏ. Thất bại ở trận Điện
+                Biên Phủ ngày 7 tháng 5 năm 1954 với kết quả là Hiệp định Geneva
+                được ký kết, chấm dứt hoàn toàn nỗ lực của Pháp và Mỹ thúc đẩy
+                Việt Nam và toàn bộ Đông Dương.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:h-screen items-center flex PREHISTORIC-1" id="PREHISTORIC14">
+      <div class="laco w-full h-full object-cover">
+        <img
+          class="w-full h-full object-cover opacity-20 xetang"
+          src="./img/my.jpg"
+          alt=""
+        />
+      </div>
+      <div class="container mx-auto">
+        <div class="container-noidung flex md:gap-12">
+          <div class="flex-1">
+            <div class="lg:text-lg text-sm md:mb-0 mb-3">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-3">
+                Kháng chiến chống Mỹ
+              </h1>
+
+              <p class="px-2">
+                <strong>Trong giai đoạn 1956 - 1958</strong> nước Việt Nam Dân
+                chủ Cộng hòa đề nghị với dân tộc Việt Nam tiến hành tổng tuyển
+                cử để thống nhất đất nước nhưng bị từ chối. Từ năm 1959, Mặt
+                trận Dân tộc Giải phóng miền Nam Việt Nam ra đời.
+              </p>
+              <p class="px-2">
+                <strong>Năm 1969</strong> người kế nhiệm Tổng thống Richard
+                Nixon tuyên bố Mỹ quay trở lại, Nixon cùng cố vấn Henry
+                Kissinger đưa ra chiến lược “Việt Nam hóa chiến tranh”. Tháng 1
+                năm 1973, Hiệp định Hòa bình Paris được ký kết sau thất bại của
+                Mỹ và việc rút quân khỏi Việt Nam theo các điều khoản của hiệp
+                định công nhận “độc lập, chủ quyền, thống nhất và toàn vẹn lãnh
+                thổ” của Việt Nam. Ngày 30/4/1975, Quân Giải phóng miền Nam Việt
+                Nam giành quyền kiểm soát Sài Gòn và chính thức thống nhất đất
+                nước.
+              </p>
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="w-full h-full object-cover">
+              <img class="anh-1 w-full h-full" src="./img/my-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="items-center flex PREHISTORIC-9 py-20 h-full relative"
+      id="PREHISTORIC15"
+    >
+      <!-- <div class="convoi-7">
+        <img class="convoi" src="./img/convoi.png" alt="" />
+      </div> -->
+      <div class="container mx-auto">
+        <div class="container-noidung flex gap-12">
+          <div class="md:flex flex-row">
+            <div class="flex-1 pb-5">
+              <h1 class="md:text-5xl font-black text-3xl text-center mb-8">
+                Sau khi thống nhất,đổi mới
+              </h1>
+              <p class="px-2">
+                <strong>Ngày 25 tháng 4 năm 1976</strong> nước Việt Nam Dân chủ
+                Cộng hòa và nước Cộng hòa miền Nam Việt Nam tổ chức Tổng tuyển
+                cử thống nhất Nhà nước thành một nước có tên chính thức là Cộng
+                hòa xã hội chủ nghĩa Việt Nam.
+              </p>
+              <p class="px-2">
+                <strong>Năm 1977</strong> Việt Nam trở thành thành viên của Liên
+                hợp quốc. Năm 1986, Đại hội VI Đảng Cộng sản Việt Nam thực hiện
+                chủ trương “Đổi mới” do ông Nguyễn Văn Linh đứng đầu nhằm hợp lý
+                hóa cơ cấu hành chính, cải cách cơ cấu Đảng, pháp quyền và dân
+                chủ.
+              </p>
+              <p class="px-2">
+                <strong>Đổi mới kinh tế</strong> theo hướng kinh tế thị trường
+                định hướng xã hội chủ nghĩa. Ngày 31/12/2015, Việt Nam chính
+                thức tham gia thành lập Cộng đồng kinh tế ASEAN - ASEAN Economic
+                Community, viết tắt là AEC, gồm 10 nước thành viên.
+              </p>
+            </div>
+            <div class="flex-1">
+              <div class="w-full h-full">
+                <img
+                  class="w-full h-full object-cover anh-1"
+                  src="./img/doimoi.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ketluan" class="py-10 bg-white shadow-md">
+      <div class="container mx-auto pb-20 flex items-center">
+        <div>
+          <h2 class="text-3xl text-center mb-4">Kết luận</h2>
+          <p class="px-2">
+            Lịch sử Việt Nam là bức tranh sống động về sự kiên cường, lòng yêu
+            nước và khát vọng độc lập của một dân tộc nhỏ bé nhưng đầy ý chí.
+            Trải qua hàng nghìn năm với biết bao thăng trầm, từ thời dựng nước,
+            giữ nước, cho đến những cuộc chiến tranh giành độc lập và xây dựng
+            đất nước, mỗi giai đoạn đều góp phần hình thành nên bản sắc và tinh
+            thần dân tộc. Những bài học từ quá khứ không chỉ là niềm tự hào mà
+            còn là động lực để thế hệ sau tiếp tục gìn giữ, phát huy và xây dựng
+            một Việt Nam phát triển, hòa bình, và thịnh vượng trong tương lai.
+            Lịch sử ấy là nguồn cảm hứng vô tận, nhắc nhở chúng ta về giá trị
+            của hòa bình và ý nghĩa sâu sắc của độc lập, tự do.. Xây dựng và bảo
+            vệ nền độc lập: Sau khi giành độc lập từ thực dân Pháp (1945) và
+            vượt qua sự can thiệp của Hoa Kỳ trong Chiến tranh Việt Nam, Việt
+            Nam đã trở thành một quốc gia độc lập và thống nhất. Điều này đánh
+            dấu sự chấm dứt của thời kỳ thực dân và mở ra một thời kỳ mới cho
+            việc tự quyết định và xây dựng tương lai của đất nước. Phát triển
+            kinh tế và xã hội: Sau năm 1975, Việt Nam phải đối mặt với nhiều khó
+            khăn về kinh tế và hạ tầng do chiến tranh để lại. Tuy nhiên, từ năm
+            1986, chính sách Đổi Mới đã đưa Việt Nam từ nền kinh tế tập trung
+            sang kinh tế thị trường định hướng xã hội chủ nghĩa, mở cửa và hội
+            nhập quốc tế. Đổi Mới đã giúp Việt Nam đạt được tốc độ tăng trưởng
+            kinh tế nhanh chóng, giảm tỷ lệ đói nghèo và cải thiện chất lượng
+            sống của người dân. Hội nhập quốc tế: Việt Nam đã trở thành thành
+            viên của nhiều tổ chức quốc tế như ASEAN, WTO, và ký kết các hiệp
+            định thương mại tự do với nhiều quốc gia. Việc mở rộng hợp tác quốc
+            tế đã thúc đẩy kinh tế và văn hóa, đồng thời nâng cao vị thế của
+            Việt Nam trên trường quốc tế. Giữ gìn và phát huy bản sắc dân tộc:
+            Trong quá trình phát triển, Việt Nam vẫn luôn giữ gìn và phát huy
+            các giá trị văn hóa truyền thống. Đây là yếu tố quan trọng giúp quốc
+            gia duy trì được bản sắc riêng trong bối cảnh toàn cầu hóa. Chú
+            trọng phát triển con người: Chính phủ đã đầu tư mạnh mẽ vào giáo
+            dục, y tế và cải thiện hạ tầng để nâng cao chất lượng cuộc sống của
+            người dân. Đây là nền tảng để Việt Nam hướng đến phát triển bền vững
+            và thịnh vượng.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-4" id="lienhe">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2024 Lịch Sử Việt Nam. Tất cả các quyền được bảo lưu.</p>
+        <p>Liên hệ: info@lichsuvietnam.com</p>
+      </div>
+    </footer>
+    <div class="quaylai hidden">
+      <button class="btnquay">
+        <i class="fa-solid fa-arrow-up text-red-600"></i>
+      </button>
+    </div>
+  </body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="./index.js"></script>
+</html>

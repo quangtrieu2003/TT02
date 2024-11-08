@@ -1,0 +1,499 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+.hidden-scroll {
+  overflow: hidden; /* Ẩn cuộn */
+}
+.header-1 {
+  background-color: rgb(219, 37, 37);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.logo-1 {
+  width: 125px;
+}
+header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.menu {
+  color: rgb(219, 37, 37);
+}
+.home {
+  position: fixed;
+  background-color: antiquewhite;
+  z-index: 100;
+  border-bottom: 1px solid;
+}
+
+ul.menu a::after {
+  content: "";
+  height: 5px;
+  width: 0px;
+  border-radius: 2px;
+  background: rgb(219, 37, 37);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+ul.menu a:hover::after {
+  width: 50%;
+  transform: translateX(100%);
+}
+ul.menu a {
+  position: relative;
+  padding-bottom: 7px;
+  border-radius: 9px;
+}
+
+h2 {
+  color: red;
+}
+.trangchu {
+  position: relative;
+}
+
+#ketluan {
+  background-color: antiquewhite;
+}
+
+.anh {
+  width: 100%;
+  box-shadow: 6px 6px 12px 0px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  display: block;
+}
+.container-timeline-1 {
+  box-shadow: 6px 6px 12px 0px rgb(0 0 0 / 30%);
+}
+.tomtat1 {
+  background-image: url("./img/bach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bentrai {
+  position: relative;
+  z-index: 1;
+}
+.anh1 {
+  z-index: -1;
+  position: absolute;
+}
+
+.hangdoc {
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: 100%;
+  background-color: rgb(230, 83, 83);
+}
+
+.timeline {
+  position: relative;
+}
+
+.thoigian {
+  /* background-image: url("./img/bach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  position: relative;
+}
+.ovuong:hover {
+  background-color: pink;
+  border: 1px solid rgb(214, 206, 206);
+  transition: 0.5s;
+}
+.ovuong {
+  background-color: aliceblue;
+}
+
+.mail {
+  border-radius: 10px;
+  background-color: bisque;
+  padding: 7px 14px;
+  color: red;
+  border: 2px solid red;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.mail::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(224, 157, 69);
+  left: -100%;
+  top: 0;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+.mail:hover::before {
+  left: 0;
+}
+
+.chu {
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: rgb(219, 37, 37);
+}
+.anh9 {
+  position: absolute;
+  z-index: -1;
+  top: -111%;
+  left: -23%;
+}
+.anh10 {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+.benphai {
+  position: relative;
+  z-index: 1;
+}
+/* .thoigian {
+   background-color: rgb(20, 20, 20) ; 
+} */
+.noidung {
+  position: relative;
+  z-index: 4;
+}
+.giay {
+  top: 27%;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 310px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+.tomtat-2 {
+  position: relative;
+  z-index: 5;
+}
+.giay {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 73%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+.PREHISTORIC,
+.PREHISTORIC-4,
+.PREHISTORIC-5,
+.PREHISTORIC-6,
+.PREHISTORIC-7,
+.PREHISTORIC-8,
+.PREHISTORIC-9 {
+  background-color: rgb(250, 235, 215);
+  position: relative;
+}
+
+.PREHISTORIC:before {
+  content: "";
+  background-image: url("./img/anhNenCongNguyen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.PREHISTORIC-4:before {
+  content: "";
+  background-image: url("./img/trongdongnua.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.PREHISTORIC-5:before {
+  content: "";
+  background-image: url("./img/trungquocnua.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.PREHISTORIC-6:before {
+  content: "";
+  background-image: url("./img/doclapnua.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.PREHISTORIC-7:before {
+  content: "";
+  background-image: url("./img/phapnua.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.PREHISTORIC-8:before {
+  content: "";
+  background-image: url("./img/sau1945nua.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+/* .PREHISTORIC-6:hover:before{
+  transform: scale(1.1);
+} */
+
+.conVoi:after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  background-image: url("./img/convoi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-timeline > div > div {
+  background-color: rgb(230, 83, 83);
+}
+i {
+  color: rgb(230, 83, 83);
+}
+
+.container-timeline {
+  position: relative;
+}
+.muiten {
+  position: absolute;
+  left: 73%;
+  top: 39%;
+}
+.muiten-1 {
+  position: absolute;
+  left: 24%;
+  top: 71%;
+}
+.xetang {
+  width: 300px;
+  height: 300px;
+}
+.laco,
+.tongquan,
+.tiensu {
+  position: absolute;
+}
+.tongquan {
+  z-index: -1;
+}
+.laco {
+  z-index: -1;
+}
+.nguyenthuy {
+  z-index: -1;
+}
+.convoi {
+  width: 100px;
+  height: 100px;
+}
+.convoi-1 {
+  position: absolute;
+  z-index: -1;
+  top: 31%;
+  left: 28%;
+}
+.convoi-2 {
+  position: absolute;
+  z-index: 1;
+  top: 21%;
+  left: 33%;
+}
+.convoi-3 {
+  position: absolute;
+  z-index: 1;
+  top: 23%;
+  left: 26%;
+}
+.convoi-4 {
+  position: absolute;
+  z-index: 1;
+  top: 19%;
+  left: 39%;
+}
+.convoi-5 {
+  position: absolute;
+  z-index: 1;
+  top: 22%;
+  left: 31%;
+}
+.convoi-6 {
+  position: absolute;
+  z-index: 1;
+  top: 18%;
+  left: 36%;
+}
+.convoi-7 {
+  position: absolute;
+  z-index: 1;
+  top: 19%;
+  left: 27%;
+}
+/* .anhToNho img {
+  width: 10%;
+}
+
+.anhToNho img:hover {
+  width: 100%;
+}
+.btnquay:hover {
+  transform: scale(1.1);
+} */
+.hangdoc {
+  background-color: #e78253;
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  -webkit-box-shadow: -5px -1px 48px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px -1px 48px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px -1px 48px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 12px;
+}
+.timeline {
+  position: relative;
+}
+.container-noidung-1:hover {
+  background-color: pink;
+  transition: 0.5s;
+}
+.container-noidung-1 {
+  background-color: #ffffff;
+}
+.btnquay {
+  padding: 7px 10px;
+  color: red;
+}
+.quaylai {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  position: fixed;
+  bottom: 98px;
+  right: 20px;
+  opacity: 0.5;
+  border-radius: 17px;
+  padding: 7px 7px;
+  color: red;
+  border: 2px solid red;
+}
+.quaylai:hover {
+  transform: scale(1.1);
+  z-index: 0;
+}
+
+.noidung3,
+.noidung4,
+.noidung5,
+.noidung6,
+.noidung7,
+.noidung8 {
+  top: 50%;
+  position: fixed;
+  left: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  display: none;
+  border-radius: 15px;
+  z-index: 10;
+}
+
+.anh:hover {
+  transform: scale(1.1);
+}
+.anh,
+.anh-1 {
+  transition: transform 0.3s ease;
+}
+
+#lichsu > .typed-cursor {
+  color: rgb(219, 37, 37);
+  border-radius: 10px;
+}
+.anh-1:hover {
+  transform: scale(1.1);
+}
+
+/* #header__ul > li {
+  position: relative;
+  right: -100%;
+  transition: 0.25s;
+}
+
+#header__ul.show > li {
+  right: 0;
+} */

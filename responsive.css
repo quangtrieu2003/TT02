@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 12px 20px;
+    flex-direction: column;
+    transition: right 0.3s ease;
+    position: absolute;
+    color: rgb(237, 81, 81);
+    top: 61px;
+    width: 100%;
+    text-align: left;
+    background-color: antiquewhite;
+    display: none;
+    border-bottom: 1px solid black;
+
+  }
+
+  .show {
+    right: 0;
+    display: flex;
+  }
+
+  .noidung {
+    flex-direction: column;
+
+    gap: 0;
+  }
+  .lichsu {
+    padding-top: 35%;
+  }
+  .anhbac img {
+    display: none;
+  }
+  .PREHISTORIC:before,
+  .PREHISTORIC-4:before,
+  .PREHISTORIC-5:before,
+  .PREHISTORIC-6:before,
+  .PREHISTORIC-7:before,
+  .PREHISTORIC-8:before {
+    display: none;
+    background-position: left;
+  }
+
+  .container-noidung {
+    flex-direction: column;
+  }
+  .anh-1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 3px;
+  }
+  .hangdoc {
+    left: 4%;
+  }
+  .thoi {
+    width: 100%;
+  }
+  .noidung1,
+  .noidung2,
+  .noidung3,
+  .noidung4,
+  .noidung5,
+  .noidung6,
+  .noidung7,
+  .noidung8,
+  .noidung9 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .PREHISTORIC:before,
+  .PREHISTORIC-4:before,
+  .PREHISTORIC-5:before,
+  .PREHISTORIC-6:before,
+  .PREHISTORIC-7:before,
+  .PREHISTORIC-8:before {
+    background-position: right;
+    background-size: contain;
+    right: 0;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .noidung3,
+  .noidung4,
+  .noidung5,
+  .noidung6,
+  .noidung7,
+  .noidung8 {
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    display: none;
+    border-radius: 15px;
+    z-index: 10;
+  }
+  .noidung8 {
+    /* height: 70%; */
+    width: 90%;
+  }
+  .chu {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .noidung3,
+  .noidung4,
+  .noidung5,
+  .noidung6,
+  .noidung7,
+  .noidung8 {
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    display: none;
+    border-radius: 15px;
+    z-index: 10;
+    /* height: 50%; */
+    width: 80%;
+  }
+
+  .chu {
+    font-size: 9px;
+  }
+
+}
